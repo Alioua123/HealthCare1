@@ -1,0 +1,16 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/discard_reminder"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="action_discard_reminder"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/save_reminder"
+        android:icon="@drawable/ic_check_white_24dp"
+        android:title="action_save_reminder"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+</menu>

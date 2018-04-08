@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.hp.healthcare.MainActivity4"
+    tools:ignore="DuplicateIds"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/doctor"
+        app:layout_constraintRight_toLeftOf="@+id/editText"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="57dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="39dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="154dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="86dp"
+        android:gravity="center"
+        android:text="@string/add_profile"
+        android:textColor="?attr/colorControlActivated"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        android:layout_marginEnd="91dp"
+        app:layout_constraintRight_toRightOf="@+id/textView2"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/create_your_profile"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/tv1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:text="@string/name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="188dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="52dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="49dp"
+        android:text="@string/age"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton"
+        android:layout_marginTop="187dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="186dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:ignore="LabelFor"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintRight_toRightOf="@+id/radioButton"
+        android:layout_marginTop="21dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintLeft_toLeftOf="@+id/radioButton3" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="63dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="51dp"
+        android:text="@string/gender"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editText2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="9dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@+id/editText">
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="70dp"
+        android:layout_height="47dp"
+        android:layout_weight="1"
+        android:text="@string/male"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        android:layout_marginTop="56dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        app:layout_constraintLeft_toRightOf="@+id/imageView3" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="80dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/female"
+        android:textColor="@color/colorAccent"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/radioButton3"
+        tools:layout_constraintBaseline_creator="1" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/add"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="78dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="29dp"
+        android:text="@string/menage_meds_for_anyone_who_doesn_t_have_a_smart_phone_children_parents"
+        android:textColor="@android:color/black"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="90dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
